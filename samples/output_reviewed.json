@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "run_id": "8d9475c9-dbf5-46f0-a25d-900301db9f68",
+  "client_id": "DEMO-001",
+  "as_of": "2026-10-15",
+  "currency": "USD",
+  "status": "overridden",
+  "risk_level": "high",
+  "crm_context": {
+    "client_id": "DEMO-001",
+    "risk_tolerance": "balanced",
+    "source": "crm"
+  },
+  "data_quality": {
+    "duplicates_removed": 0,
+    "transaction_count": 9
+  },
+  "analysis": {
+    "metrics": {
+      "monthly_surplus": -1200.0,
+      "liquidity_runway_months": 1.67,
+      "portfolio_value": 100000.0,
+      "debt": 18000.0,
+      "current_30d_outflows": 9220.0,
+      "prior_30d_outflows": 520.0
+    },
+    "signals": [
+      {
+        "code": "NEGATIVE_CASH_FLOW",
+        "severity": "high",
+        "evidence": {
+          "income": 6000.0,
+          "expenses": 7200.0
+        },
+        "suggested_action": "Validate recurring income and expenses with the client; review the spending plan."
+      },
+      {
+        "code": "LOW_LIQUIDITY",
+        "severity": "high",
+        "evidence": {
+          "runway_months": 1.67,
+          "threshold_months": 3
+        },
+        "suggested_action": "Discuss near-term liquidity needs and confirm available reserves."
+      },
+      {
+        "code": "CONCENTRATION",
+        "severity": "medium",
+        "evidence": {
+          "symbol": "DEMO_EQUITY_A",
+          "share": 0.7,
+          "threshold": 0.4
+        },
+        "suggested_action": "Review concentration against the client mandate before considering any changes."
+      },
+      {
+        "code": "UNUSUAL_OUTFLOW",
+        "severity": "high",
+        "evidence": {
+          "transaction_id": "T08",
+          "amount": 9000.0,
+          "median": 105.0,
+          "mad": 10.0,
+          "threshold": 1000
+        },
+        "suggested_action": "Verify the transaction purpose and authorization with the client."
+      },
+      {
+        "code": "SPENDING_INCREASE",
+        "severity": "medium",
+        "evidence": {
+          "current_30d": 9220.0,
+          "prior_30d": 520.0,
+          "increase_ratio": 16.7308
+        },
+        "suggested_action": "Confirm both windows have complete transaction coverage and explain the spending increase."
+      }
+    ],
+    "limitations": [
+      "Transaction coverage is not independently verified; trend flags require manual confirmation."
+    ]
+  },
+  "previous_summary": null,
+  "recurring_signal_codes": [],
+  "warnings": [],
+  "trace": [
+    "orchestrator.started",
+    "data.validated",
+    "crm.fetched",
+    "memory.loaded",
+    "analysis.completed",
+    "advisory.review_required",
+    "orchestrator.completed"
+  ],
+  "review": {
+    "reviewer": "Demo Advisor",
+    "decision": "override",
+    "note": "Synthetic example: large transfer confirmed as planned; retain remaining items for follow-up.",
+    "at": "2026-10-15T04:15:14.047987+00:00"
+  },
+  "notice": "Synthetic demonstration. Advisor review required; no trades or client messages are executed."
+}

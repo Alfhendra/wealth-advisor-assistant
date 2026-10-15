@@ -1,0 +1,24 @@
+{"timestamp": "2026-10-15T04:15:12.374530+00:00", "run_id": "8d9475c9-dbf5-46f0-a25d-900301db9f68", "event": "orchestrator.started"}
+{"timestamp": "2026-10-15T04:15:12.374530+00:00", "run_id": "8d9475c9-dbf5-46f0-a25d-900301db9f68", "event": "data.validated", "duplicates_removed": 0}
+{"timestamp": "2026-10-15T04:15:12.375528+00:00", "run_id": "8d9475c9-dbf5-46f0-a25d-900301db9f68", "event": "crm.fetched"}
+{"timestamp": "2026-10-15T04:15:12.377522+00:00", "run_id": "8d9475c9-dbf5-46f0-a25d-900301db9f68", "event": "memory.loaded", "history_found": false}
+{"timestamp": "2026-10-15T04:15:12.377522+00:00", "run_id": "8d9475c9-dbf5-46f0-a25d-900301db9f68", "event": "analysis.completed", "signals": 5}
+{"timestamp": "2026-10-15T04:15:12.378520+00:00", "run_id": "8d9475c9-dbf5-46f0-a25d-900301db9f68", "event": "advisory.review_required", "risk_level": "high"}
+{"timestamp": "2026-10-15T04:15:12.378520+00:00", "run_id": "8d9475c9-dbf5-46f0-a25d-900301db9f68", "event": "orchestrator.completed"}
+{"timestamp": "2026-10-15T04:15:13.148148+00:00", "run_id": "b92e29df-5d42-4aee-8706-5245f586158e", "event": "orchestrator.started"}
+{"timestamp": "2026-10-15T04:15:13.148148+00:00", "run_id": "b92e29df-5d42-4aee-8706-5245f586158e", "event": "data.validated", "duplicates_removed": 0}
+{"timestamp": "2026-10-15T04:15:13.148148+00:00", "run_id": "b92e29df-5d42-4aee-8706-5245f586158e", "event": "crm.fetched"}
+{"timestamp": "2026-10-15T04:15:13.148148+00:00", "run_id": "b92e29df-5d42-4aee-8706-5245f586158e", "event": "memory.loaded", "history_found": true}
+{"timestamp": "2026-10-15T04:15:13.148148+00:00", "run_id": "b92e29df-5d42-4aee-8706-5245f586158e", "event": "analysis.completed", "signals": 5}
+{"timestamp": "2026-10-15T04:15:13.148148+00:00", "run_id": "b92e29df-5d42-4aee-8706-5245f586158e", "event": "advisory.review_required", "risk_level": "high"}
+{"timestamp": "2026-10-15T04:15:13.148148+00:00", "run_id": "b92e29df-5d42-4aee-8706-5245f586158e", "event": "orchestrator.completed"}
+{"timestamp": "2026-10-15T04:15:13.481488+00:00", "run_id": "f7907a35-b402-4857-8cc6-3fef84b350c1", "event": "orchestrator.started"}
+{"timestamp": "2026-10-15T04:15:13.481488+00:00", "run_id": "f7907a35-b402-4857-8cc6-3fef84b350c1", "event": "data.validated", "duplicates_removed": 0}
+{"timestamp": "2026-10-15T04:15:13.481488+00:00", "run_id": "f7907a35-b402-4857-8cc6-3fef84b350c1", "event": "crm.fallback", "error_type": "ToolError"}
+{"timestamp": "2026-10-15T04:15:13.481488+00:00", "run_id": "f7907a35-b402-4857-8cc6-3fef84b350c1", "event": "memory.loaded", "history_found": true}
+{"timestamp": "2026-10-15T04:15:13.481488+00:00", "run_id": "f7907a35-b402-4857-8cc6-3fef84b350c1", "event": "analysis.completed", "signals": 5}
+{"timestamp": "2026-10-15T04:15:13.481488+00:00", "run_id": "f7907a35-b402-4857-8cc6-3fef84b350c1", "event": "advisory.review_required", "risk_level": "high"}
+{"timestamp": "2026-10-15T04:15:13.481488+00:00", "run_id": "f7907a35-b402-4857-8cc6-3fef84b350c1", "event": "orchestrator.completed"}
+{"timestamp": "2026-10-15T04:15:13.775262+00:00", "run_id": "bc6ec5b0-77c3-41e2-b0ef-4753db072c95", "event": "orchestrator.started"}
+{"timestamp": "2026-10-15T04:15:13.775262+00:00", "run_id": "bc6ec5b0-77c3-41e2-b0ef-4753db072c95", "event": "input.rejected", "error_type": "InputError"}
+{"timestamp": "2026-10-15T04:15:14.047987+00:00", "run_id": "8d9475c9-dbf5-46f0-a25d-900301db9f68", "event": "review.recorded", "decision": "override"}

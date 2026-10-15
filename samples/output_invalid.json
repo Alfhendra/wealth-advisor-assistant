@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "run_id": "bc6ec5b0-77c3-41e2-b0ef-4753db072c95",
+  "status": "failed",
+  "error": {
+    "code": "INVALID_INPUT",
+    "message": "Missing fields: as_of, monthly_income, monthly_expenses, liquid_assets, debt, holdings, transactions"
+  },
+  "trace": [
+    "orchestrator.started",
+    "input.rejected"
+  ]
+}
